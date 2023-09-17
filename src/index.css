@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Elephant;
+  src: url("./assets/fonts/Elephant.ttf") format("opentype");
+}
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("./assets/fonts/Poppins-Medium.ttf") format("opentype");
+}
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") format("opentype");
+}
+@font-face {
+  font-family: Rufina-Bold;
+  src: url("./assets/fonts/Rufina-Bold.ttf") format("opentype");
+}
+@font-face {
+  font-family: RobotoSlab-Medium;
+  src: url("./assets/fonts/RobotoSlab-Medium.ttf") format("opentype");
+}
+@font-face {
+  font-family: RobotoSlab-Bold;
+  src: url("./assets/fonts/RobotoSlab-Bold.ttf") format("opentype");
+}
+@font-face {
+  font-family: RobotoSerif-SemiBold;
+  src: url("./assets/fonts/RobotoSerif-SemiBold.ttf") format("opentype");
+}
+
+.margin-horizontal-screen {
+  @apply mx-[2.5rem] sm:mx-[5rem]
+}
+.active-product-category {
+  @apply text-green-chromatic;
+}
