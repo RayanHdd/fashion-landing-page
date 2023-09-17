@@ -1,6 +1,6 @@
 # fashion-landing-page
 A fashion landing page UI created by React and Tailwindcss - fully responsive. Thanks @DSCodetech for the design.
-#######################################################################################
+
 
 ![Screenshot 2023-09-17 231139](https://github.com/RayanHdd/fashion-landing-page/assets/68460959/d50032de-3946-4ef3-a08d-af7178cbd499)
 
